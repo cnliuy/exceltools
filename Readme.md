@@ -1,5 +1,7 @@
 # Excel 操作工具
 
+处理 excel文件 生成相应的文本txt  
+
 testexcel2.java  
     通过excel生成 cp命令  
 
