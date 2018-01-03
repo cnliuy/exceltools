@@ -14,6 +14,12 @@ public class testexcel2 {
 		ArrayList<String> list ;
 		//山西epg图片信息样例.xls
 		String filepath = "E:\\山西epg图片信息样例.xls";
+		
+		//注意
+		//	excel的字段需要排序		
+		filepath = "E:\\山西EPG全量图片信息-20170103.xls";
+		
+		
 		//int[] intArray = {1,3,5,7,8,9,13};   
 		//int[] intArray2 = {1,3,5,7,8,9,12};  
 		//int[] intArray3 = {2,3,5,6,7,8,9};  
