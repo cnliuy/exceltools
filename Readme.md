@@ -7,3 +7,6 @@ testexcel2.java
 
 shell.sh  
     通过shell 创建文件夹，并作分类 copy操作  
+    
+源码地址:      
+	https://github.com/cnliuy/exceltools  
