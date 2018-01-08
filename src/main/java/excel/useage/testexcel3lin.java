@@ -6,22 +6,23 @@ import java.util.ArrayList;
 import excel.utils.ExcelTools;
 import excel.utils.ForFile;
 
-public class testexcel2 {
+public class testexcel3lin {
 	 /**
 	  * using
 	  *   正在使用的。
-	  * 
+	  *   linlin分类
+	  *   
+	  *   
 	  * */
 	public static void main(String[] args) {
 		
 		
 		ArrayList<String> list ;
 		//山西epg图片信息样例.xls
-		String filepath = "E:\\山西epg图片信息样例.xls";
-		
+		String filepath = "E:\\手机版图片取237-2";		
 		//注意
 		//	excel的字段需要排序		
-		filepath = "E:\\山西EPG全量图片信息-20170103.xls";
+		filepath = "E:\\手机版图片取237-2.xls";
 		
 		
 		//int[] intArray = {1,3,5,7,8,9,13};   
@@ -30,11 +31,12 @@ public class testexcel2 {
 		
 		int[] intArray = {1,2,3};  //0时id 不要
 		/**
-		 * 图片ID							ACCESS_URL						图片名称					       图片类型
-		 * 1001180000000000011163	201611/img2016111314313538294.jpg	img2016111314313538294.jpg	0
-		 * 1001180000000000052720	201702/img2017021715554618367.jpg	img2017021715554618367.jpg	0
-		 * 1001180000000000137705	201706/img2017060916214127986.jpg	img2017060916214127986.jpg	0
-		 * 1001180000000000137467	201706/img2017060915384486394.jpg	img2017060915384486394.jpg	1
+		    	图片ID					ACCESS_URL						图片类型	图片名称
+		 	1001180000000000006844	201601/img2016012322303176420.png	0	img2016012322303176420.png
+		 	1001180000000000006867	201601/img2016012402210534059.png	0	img2016012402210534059.png
+		 	1001180000000000007515	201603/img201603010922300756.jpg	0	img201603010922300756.jpg
+		 	1001180000000000007563	201603/img2016030118011975195.jpg	0	img2016030118011975195.jpg
+                                           		要 							要        要
 		 * 
 		 * 
 		 * */
